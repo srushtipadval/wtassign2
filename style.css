@@ -1,0 +1,86 @@
+.home {
+	display: block;
+	color: powderblue;
+}
+.reg_form {
+	display: none;
+}
+
+.data {
+	display: none;
+	color: black;
+}
+table {
+	position: relative;
+	left: 100px;
+}
+th {
+	padding: 10px;
+}
+.btn {
+	display: inline-block;
+}
+.head {
+	background-color: rgb(68, 3, 3);
+	color: grey;
+	padding: 15px 0 15px 0;
+}
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid black;
+	background: white;
+	border-radius: 0px 0px 6px 6px;
+}
+.input {
+	margin: 6px 0px 6px 0px;
+}
+
+.input label {
+	/*display: block;
+	text-align: left;*/
+	margin: 3px;
+}
+.input input {
+	height: 15px;
+	width: 53%;
+	padding: 6px 6px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 25px;
+	font-size: 15px;
+	color: black;
+	background: peachpuff;
+	border: none;
+	/*border-radius: 5px;*/
+}
+header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: black;
+	background: peachpuff;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	font-family: 'Ranchers', cursive;
+	letter-spacing: 2px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+
+}
+p {
+	text-align: center;
+	font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}

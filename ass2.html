@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="head">
+		<h1>Choose your favourite blogs</h1>
+	</div>
+		<button class="btn" onclick="change('first');"> Home </button>
+	<button class="btn" onclick="change('regi');"> Registration </button>
+	<button class="btn" onclick="change('tab');"> table </button>
+	<div class="bg-image"></div>
+	<div class="bg-text">
+
+	<div class="home" id="first">
+		<h1>Homepage</h1>
+		<p>This category is for bloggers whose fame is received by their excellent combination of content, their dedication to their blog topic, and their masterful use of WordPress, Tumblr, and other blogging platforms to bring their posts to life on their blogs. Choose your favorite #Blogger here!</p>
+	</div>
+	<div class="reg_form" id="regi">
+		
+		<header>
+			<h1>Sign Up</h1>
+		</header>
+		<form id="myForm" action="reg.html" method="post">
+			<div class="input">
+
+				<label>First name : </label>
+				<input id="fname" type="text" name="fname" required><br>
+			</div>
+				
+			<div class="input">
+				<label>Last name : </label>
+				<input id="lname" type="text" name="lname" required>
+
+			</div>
+
+			<div class="input">
+
+				<label>Username : </label>				<input id="username" type="text" name="username" required>
+
+			</div>
+
+			<div class="input">
+
+				<label>Email :</label>
+				<input id="ema" type="email" name="ema" required>
+
+			</div>
+
+	        <span>Choose your gender : </span>
+	        <br>
+	        <div id="gen">
+	        	<input type="radio" id="g1" name="gender" value="Male">Male 
+    			<input type="radio" id="g2" name="gender" value="Female">Female
+    		</div>
+
+			<div class="input">
+
+				<label>Age : </label>
+				<input id="age" type="integer" name="age" required>
+
+			</div>
+
+			<div class="input">
+
+				<label>Phone No : </label>
+				<input id="phn" type="number" name="phn" minlength="10" required>
+
+			</div>
+
+			<label for="bun">Choose Category</label>
+          	<select name="category" id="category">
+            	<option value="Travel">Travel</option>
+            	<option value="Fashion">Fashion and lifestyle</option>
+            	<option value="Beauty">Beauty</option>
+          	</select>
+        	
+        </section>
+
+			<div class="input">
+				<button type="submit" class="btn" onclick="addRow();"> Submit </button>
+			</div>
+		</form>		
+	</div>
+	<div class="data" id="tab">
+		<table border="1">
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Username</th>
+					<th>Email</th>
+					<th>Age</th>
+					<th>Contact</th>
+					<th>Gender</th>
+					<th>Category</th>
+					<th>Updated</th>
+				</tr>
+		</table>
+	</div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
